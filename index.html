@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Informativo - Agrotóxicos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">AgroConsciência</div>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#regulamentacao">Regulamentação</a>
+            <a href="#alternativas">Alternativas</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>O que são Agrotóxicos?</h1>
+        <p>Entenda a definição, o impacto na saúde, no meio ambiente e a legislação vigente no Brasil.</p>
+    </section>
+
+    <main>
+        <section id="sobre" class="conteudo">
+            <h2>Busque por Tópicos</h2>
+            <input type="text" id="busca" placeholder="Digite uma palavra-chave (ex: Anvisa, Saúde)..." onkeyup="filtrarConteudo()">
+
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Definição</h3>
+                    <p>Também chamados de defensivos agrícolas ou pesticidas, são produtos químicos ou biológicos usados para proteger plantações contra pragas e doenças.</p>
+                </div>
+                <div class="card">
+                    <h3>Saúde e Anvisa</h3>
+                    <p>A Anvisa coordena o PARA (Programa de Análise de Resíduos de Agrotóxicos em Alimentos), que monitora os níveis de resíduos no que consumimos.</p>
+                </div>
+                <div class="card">
+                    <h3>Meio Ambiente</h3>
+                    <p>O Ibama é o órgão responsável por avaliar os riscos ambientais, monitorando o impacto no solo, na água e na fauna local.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Website Educativo sobre Agrotóxicos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
